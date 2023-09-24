@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre escolas em Angola. Informações sobre escolas públicas, privadas e universidades.">
+    <meta name="keywords" content="Escolas, Angola, educação">
+    <title>Escolas em Angola</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+     
+    <style>
+        /* Estilizar o carrossel */
+        #carouselExample {
+            background-color: #000; 
+            padding: 20px;
+        }
+
+        /* Estilizar as imagens no carrossel */
+        .carousel-inner img {
+            max-width: 70%; 
+            height: auto; 
+            display: block;
+            margin: 0 auto; 
+        }
+
+        
+
+        /* Estilizar o rodapé */
+        footer {
+            background-color: #000; 
+            color: #fff; 
+            padding: 20px; 
+            text-align: center;
+        }
+
+        /* Estilizar links no rodapé */
+        footer a {
+            color: #fff; 
+            text-decoration: none; 
+            margin: 0 10px;   
+        } 
+
+        /* Estilizar texto de boas-vindas */
+        #welcome {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #welcome h2 {
+            font-size: 36px;
+            color: #007bff;
+        }
+
+        #welcome p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        
+        /* Estilo para o container */
+        .container {
+            padding: 0;
+        }
+
+        /* Estilo para o cabeçalho */
+        header {
+            background-color: #fff; 
+            padding: 20px;
+            display: flex; 
+            align-items: center; 
+            justify-content: flex-start; 
+        }
+
+        /* Estilo para o logotipo */
+        #logo {
+            max-width: 300px; 
+            height: auto; 
+            margin-left:-150px;
+        }
+        
+        /* Estilo para o título */
+        h1 {
+            font-size: 24px;
+            color:black;
+            margin:-40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Escolas Angola</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#email">Email</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="container">
+        <img id="logo" src="Escolas Angola.png" alt="Logotipo da Escolas Angola">
+        <h1>Escolas em Angola</h1>
+    </header>
+
+        </section>
+        <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagem-de-foco-raso-de-uma-crianca-africana-aprendendo-na-escola_181624-36498.avif" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="negociar-elegante-colega-negocio-vazio_1134-1181.avif" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="estudante-africano-usando-o-computador-na-sala-de-aula_107420-52157.jpg" class="d-block w-100" alt="Imagem 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="escolas.jpg" class="d-block w-100" alt="Imagem 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="por cima dos livros.avif" class="d-block w-100" alt="Imagem 5">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>        
+
+        <nav id="Menu" class="container">
+            <div class="text-center mt-3">
+                <a href="private_schools.html" class="btn btn-primary mx-2">Escolas Privadas</a>
+                <a href="public_schools.html" class="btn btn-primary mx-2">Escolas Públicas</a>
+                <a href="universities.html" class="btn btn-primary mx-2">Universidades</a>
+            </div>
+        </nav>
+    </div>
+
+   <section id="google-search" class="container">
+    <h2>Encontrar Escolas</h2>
+    <div class="input-group mb-3">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" placeholder="Pesquisar no Google..." style="width: 1000px;" style="height:600px ;">
+            <button type="submit">Pesquisar</button>
+        </form>
+    </div>
+</section>
+<div id="search-results"></div>
+
+
+    <section id="welcome" class="container">
+        <h2>Bem-vindo ao nosso site "Escolas em Angola"!</h2>
+        <p>Este é o lugar ideal para descobrir e explorar uma ampla variedade de escolas e instituições educacionais em Angola. Nosso objetivo é facilitar sua busca por informações sobre escolas públicas, privadas e universidades no país.</p>
+        <h3>O que você pode fazer neste site:</h3>
+        <ul>
+            <li><strong>Explorar Diferentes Tipos de Instituições:</strong> Quer esteja em busca de uma escola pública, privada ou informações sobre universidades em Angola, você encontrará tudo aqui.</li>
+            <li><strong>Pesquisar Escolas:</strong> Utilize nossa barra de pesquisa para encontrar escolas com base em diversos critérios, proporcionando a você uma busca mais detalhada e personalizada.</li>
+            <li><strong>Conectar-se às Redes Sociais:</strong> Siga-nos nas redes sociais para ficar atualizado com as últimas notícias e informações sobre o mundo educacional.</li>
+        </ul>
+        <p>Estamos aqui para tornar sua jornada de busca por educação mais simples e informativa. Seja você um estudante, pai, encarregado de educação ou um curioso sobre o sistema educacional de Angola, esperamos que este site seja uma valiosa fonte de informações para você.</p>
+        <p>Explore, aprenda e encontre a instituição educacional que melhor atenda às suas necessidades acadêmicas e objetivos de aprendizado. Estamos aqui para ajudar e fornecer informações precisas e atualizadas.</p>
+        <p>Obrigado por escolher "Escolas em Angola" como seu guia educacional. Desejamos a você uma jornada educacional gratificante!</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container-fluid bg-dark text-white">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://www.facebook.com/sua_pagina" target="_blank">
+                            <i class="fab fa-facebook"></i> Escolas_Angola
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.instagram.com/seu_perfil" target="_blank">
+                            <i class="fab fa-instagram"></i> Escolas_Angola
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.tiktok.com/@seu_usuario" target="_blank">
+                            <i class="fab fa-tiktok"></i> Escolas_Angola
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center text-white">Sobre o nosso site</p>
+        <p>Encontre nos nas redes sociais.</p>
+        <p>Siga nos e Saiba mais sobre nós!</p>
+        <p>Muito obrigada por usar nossos serviços, tenha uma boa estadia educacional!</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

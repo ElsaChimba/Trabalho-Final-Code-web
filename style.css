@@ -1,0 +1,72 @@
+/* Adicione seus estilos CSS personalizados aqui */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#search-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+#search-options li {
+    margin-bottom: 10px;
+}
+
+#search-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+}
+
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Estilo para a lista de escolas */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilo para os itens da lista */
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+/* Estilizar o carrossel */
+#carouselExample {
+    background-color: #000; /* Cor de fundo preto */
+    padding: 20px; /* Espaçamento interno do carrossel */
+}
+
+/* Estilizar as imagens no carrossel */
+.carousel-inner img {
+    max-width: 800px; /* Largura máxima das imagens */
+    max-height: 400px; /* Altura máxima das imagens */
+    display: block;
+    margin: 0 auto; /* Centralizar as imagens horizontalmente */
+}
+
+
+
